@@ -5,7 +5,7 @@ _NOTE: This requires Docker or Podman to be installed on your machine._
 Create a file named _.env_ and add your Neon connection string to it. For example:
 
 ```bash
-DATABASE_URL=postgresql://neondb_owner:NjOTBLaW7k9t@ep-broad-sound-a4vf4x9z.us-east-1.aws.neon.tech/neondb?sslmode=require
+DATABASE_URL=postgresql://neondb_owner:foo@ep-adj-noun-12345.us-east-1.aws.neon.tech/neondb?sslmode=require
 ```
 
 Next, build a container image and run a container:
